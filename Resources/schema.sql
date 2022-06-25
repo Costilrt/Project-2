@@ -2,7 +2,7 @@ create table vaccinations (
 	id int primary key,
 	iso_code varchar(10),
 	continent varchar(20),
-	location varchar(50),
+	country varchar(50),
 	date date,
 	population float(15),
 	total_vaccinations float(15),
