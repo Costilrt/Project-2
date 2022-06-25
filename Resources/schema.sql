@@ -12,11 +12,9 @@ create table vaccinations (
 );
 
 create table stats (
-	"Country" varchar(30) primary key,
+	iso_code varchar(30) primary key,
 	"GDP" float(10),
 	"Population Density" float(5),
 	"Urbanization" float(5),
 	"Unemployment" float(5)
 );
-
-select * from stats;
